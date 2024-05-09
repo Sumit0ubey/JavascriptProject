@@ -23,18 +23,18 @@ header div .at{
     color: #e99f4b;
 }
 
-nav li a{
+main nav li a{
   color: blue;
   text-decoration: none;
   list-style-type: circle;
 }
 
-nav li a:hover{
+main nav li a:hover{
   color: #007FFF;
   text-decoration: underline;
 }
 
-nav li a:visited{
+main nav li a:visited{
   color: rebeccapurple;
 }
 
