@@ -23,18 +23,18 @@ header div .at{
     color: #e99f4b;
 }
 
-main nav li a{
+.SectionDiff nav li a{
   color: blue;
   text-decoration: none;
   list-style-type: circle;
 }
 
-main nav li a:hover{
+.SectionDiff nav li a:hover{
   color: #007FFF;
   text-decoration: underline;
 }
 
-main nav li a:visited{
+.SectionDiff nav li a:visited{
   color: rebeccapurple;
 }
 
