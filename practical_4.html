@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practical_4.css">
+    <title>Event Types | Javascript | Practical 4</title>
+</head>
+<body onload="checkcookies()">
+
+<ul id="event-list">
+    <h2>Types of events in JavaScript</h2>
+    <li class="event-item" id="event-item1">
+        <div class="removeItem">
+            <h2>Click Event</h2>
+            <p>Click this item to trigger an onclick().</p>
+        </div>
+    </li>
+    <li class="event-item" id="event-item2">
+        <h2>Mouseover Event</h2>
+        <p>Hover over this item to change its background color.</p>
+    </li>
+    <li class="event-item" id="event-item3">
+        <h2>Mousemove Event</h2>
+        <p>Move your mouse over this item to display its coordinates.</p>
+        <p id="Showcordinates"></p>
+    </li>
+    <li class="event-item" id="event-item5">
+        <h2>Oninput & Onfocus Event</h2>
+        <p>Name: <input type="text" name="Name", placeholder="FirstName" id="fname" required></p>
+    </li>
+    <li class="event-item" id="event-item4">
+        <h2>Onload Event</h2>
+        <p>It trrigers when user enters the page.</p>
+        <p id="isCookiesEnabled"></p>
+    </li>
+</ul>
+<script src="Practical_4.js"></script>
+</body>
+</html>
